@@ -6,3 +6,7 @@ jobs:
   job1:
     runs-on: ubuntu-latest
     steps: 
+    - name: Checkout
+      uses: actions/checkout@v2.3.4
+    - name: Python Syntax Checker
+      uses: cclauss/Find-Python-syntax-errors-action@v0.2.0
