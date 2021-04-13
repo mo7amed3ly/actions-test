@@ -13,4 +13,5 @@ jobs:
         with:
           # Artifa  ct name
           name: ${{ env.FILE_NAME }}
+          path: .
   
