@@ -12,5 +12,5 @@ jobs:
         uses: actions/upload-artifact@v2.2.3
         with:
           # Artifa  ct name
-          name: ${{ FILE_NAME }}
+          name: ${{ env.FILE_NAME }}
   
