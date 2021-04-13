@@ -1,7 +1,7 @@
 name: artifact
 on: push
 env:
-  artifact_name: my_files
+  FILE_NAME: myfiles
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,5 +12,5 @@ jobs:
         uses: actions/upload-artifact@v2.2.3
         with:
           # Artifa  ct name
-          name: ${{ artifact_name }}
+          name: ${{ FILE_NAME }}
   
